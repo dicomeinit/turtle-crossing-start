@@ -27,6 +27,9 @@ class CarManager:
         for car in self.all_car:
             car.backward(self.car_speed)
 
+    def level_up(self):
+        self.car_speed += MOVE_INCREMENT
+
 
 
 
